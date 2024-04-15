@@ -14,10 +14,7 @@ class Solution(object):
             ways += int(fatorial(len(Lista))/(fatorial(Lista.count(1))*fatorial(Lista.count(2))))
 
         Lista = [1] * n
-
         times = int(n/2) + 1
-
-        print("Qnts vezes: ", times)
 
         for i in range(times):
             print(Lista)
