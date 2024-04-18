@@ -7,10 +7,10 @@ class Solution(object):
                 if grid[i][j] == 1: 
                     perimeter += 4
                 
-                    if i!=len(grid)-1: parameter.append(grid[i+1][j]) 
-                    if i!= 0: parameter.append(grid[i-1][j])
-                    if j!=len(grid[0])-1: parameter.append(grid[i][j+1])
-                    if j!=0: parameter.append(grid[i][j-1])
+                    if i != len(grid)-1: parameter.append(grid[i+1][j]) 
+                    if i != 0: parameter.append(grid[i-1][j])
+                    if j != len(grid[0])-1: parameter.append(grid[i][j+1])
+                    if j != 0: parameter.append(grid[i][j-1])
 
                 for k in parameter:
                     if (k == 1):
