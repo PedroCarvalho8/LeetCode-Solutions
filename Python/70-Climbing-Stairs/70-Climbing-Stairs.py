@@ -17,7 +17,6 @@ class Solution(object):
         times = int(n/2) + 1
 
         for i in range(times):
-            print(Lista)
             Combinacoes(Lista)
             if len(Lista) >= 2:
                 for j in range(2):
